@@ -1,0 +1,12 @@
+{% extends 'admin/master.html' %}
+
+{% block title %} FlaskBlog-Admin {% endblock %}
+
+{% block brand %} <a class="navbar-brand" href="/admin">ADMIN PAGE</a> {% endblock %}
+
+
+{% block access_control %} <strong><a href="{{url_for('home')}}">See Website</a></strong> {% endblock %}
+
+{% block body %}
+  <p>Hello world</p>
+{% endblock %}
